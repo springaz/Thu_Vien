@@ -45,5 +45,13 @@ namespace WindowsFormsApp2
             Form3 dsSach = new Form3();
             dsSach.Show();
         }
+
+        private void btnSignout_Click(object sender, EventArgs e)
+        {
+            DangNhap dangNhap = new DangNhap();
+            this.Hide();
+            dangNhap.Show();
+            this.Close();
+        }
     }
 }

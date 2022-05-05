@@ -29,17 +29,22 @@ namespace WindowsFormsApp2
         {
             string user = "abc";
             string pass = "123456";
+            HomeNV homeNv = new HomeNV(); 
+            HomeAd homead = new HomeAd(); 
             if (user.Equals(txtbTenDN.Text) && pass.Equals(txtbMatKhau.Text))
             {
                 if (rdNhanVien.Checked)
                 {
-                    HomeNV homeNv = new HomeNV();
+                    
+                    this.Hide();
                     homeNv.Show();
+                    this.Close();
                 }
                 else
                 {
-                    HomeAd homead = new HomeAd();
+                    this.Hide();
                     homead.Show();
+                    this.Close();
                 }
                 MessageBox.Show("Dang nhap thanh cong");
             }

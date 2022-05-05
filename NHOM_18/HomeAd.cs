@@ -96,7 +96,9 @@ namespace WindowsFormsApp2
         private void btnSignout_Click(object sender, EventArgs e)
         {
             DangNhap dangnhap = new DangNhap();
+            this.Hide();
             dangnhap.Show();
+            this.Close();
         }
     }
     }
