@@ -50,7 +50,7 @@ namespace WindowsFormsApp2
         {
             DangNhap dangNhap = new DangNhap();
             this.Hide();
-            dangNhap.Show();
+            dangNhap.ShowDialog();
             this.Close();
         }
     }

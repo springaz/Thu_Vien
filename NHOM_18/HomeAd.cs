@@ -97,7 +97,7 @@ namespace WindowsFormsApp2
         {
             DangNhap dangnhap = new DangNhap();
             this.Hide();
-            dangnhap.Show();
+            dangnhap.ShowDialog();
             this.Close();
         }
     }

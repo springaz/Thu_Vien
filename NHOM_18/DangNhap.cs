@@ -27,34 +27,41 @@ namespace WindowsFormsApp2
 
         private void btnDN_Click(object sender, EventArgs e)
         {
-            string user = "abc";
+            string NhanVien = "NhanVien";
+            string Admin = "Admin";
             string pass = "123456";
-            HomeNV homeNv = new HomeNV(); 
-            HomeAd homead = new HomeAd(); 
-            if (user.Equals(txtbTenDN.Text) && pass.Equals(txtbMatKhau.Text))
+            HomeNV homeNV = new HomeNV();
+            HomeAd homeAD = new HomeAd();
+            if (txtbTenDN.Text != null && txtbMatKhau.Text != null)
             {
-                if (rdNhanVien.Checked)
+                if (txtbTenDN.Text == NhanVien && txtbMatKhau.Text == pass)
                 {
-                    
                     this.Hide();
-                    homeNv.Show();
+                    homeNV.ShowDialog();
+                    this.Close();
+                }
+                else if(txtbTenDN.Text == Admin && txtbMatKhau.Text == pass)
+                {
+                    this.Hide();
+                    homeAD.ShowDialog();
                     this.Close();
                 }
                 else
                 {
-                    this.Hide();
-                    homead.Show();
-                    this.Close();
+                    MessageBox.Show("Ten Hoac Mat Khau Khong Dung");
                 }
-                MessageBox.Show("Dang nhap thanh cong");
             }
             else
-                MessageBox.Show("Sai thong tin vui long nhap lai");
-
-        }
-
-        private void txtbTenDN_TextChanged(object sender, EventArgs e)
-        {
+            {
+                if (txtbTenDN.Text != null)
+                {
+                    MessageBox.Show("Ten Dang Nhap Khong Duoc De Trong");
+                }
+                else if (txtbMatKhau.Text != null)
+                {
+                    MessageBox.Show("Mat Khau khong duoc de trong");
+                }
+            }
 
         }
 
