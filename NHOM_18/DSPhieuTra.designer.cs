@@ -42,7 +42,10 @@
             this.button1 = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
+<<<<<<< HEAD
             this.btnBack = new System.Windows.Forms.Button();
+=======
+>>>>>>> 8b0447d92c8d310e22fd6c97e99d0abc395f4062
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox3.SuspendLayout();
             this.SuspendLayout();
@@ -137,7 +140,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+<<<<<<< HEAD
             this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+=======
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+>>>>>>> 8b0447d92c8d310e22fd6c97e99d0abc395f4062
             this.label1.Location = new System.Drawing.Point(404, 18);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(352, 35);
@@ -174,6 +181,7 @@
             this.button2.Text = "Tìm Kiếm Phiếu Trả";
             this.button2.UseVisualStyleBackColor = false;
             // 
+<<<<<<< HEAD
             // btnBack
             // 
             this.btnBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -185,13 +193,18 @@
             this.btnBack.UseVisualStyleBackColor = true;
             this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
+=======
+>>>>>>> 8b0447d92c8d310e22fd6c97e99d0abc395f4062
             // DanhsachPhTra
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(1212, 534);
+<<<<<<< HEAD
             this.Controls.Add(this.btnBack);
+=======
+>>>>>>> 8b0447d92c8d310e22fd6c97e99d0abc395f4062
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.groupBox3);
@@ -199,7 +212,11 @@
             this.Controls.Add(this.button1);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "DanhsachPhTra";
+<<<<<<< HEAD
             this.Text = "Quản lý thư viện";
+=======
+            this.Text = "Danh Sách Phiếu Trả Sách";
+>>>>>>> 8b0447d92c8d310e22fd6c97e99d0abc395f4062
             this.Load += new System.EventHandler(this.DanhsachPhTra_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.groupBox3.ResumeLayout(false);
@@ -224,6 +241,9 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Button button2;
+<<<<<<< HEAD
         private System.Windows.Forms.Button btnBack;
+=======
+>>>>>>> 8b0447d92c8d310e22fd6c97e99d0abc395f4062
     }
 }

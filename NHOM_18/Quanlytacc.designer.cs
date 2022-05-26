@@ -45,18 +45,29 @@ namespace WindowsFormsApp2
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
+<<<<<<< HEAD
             this.btnBack = new System.Windows.Forms.Button();
+=======
+>>>>>>> 8b0447d92c8d310e22fd6c97e99d0abc395f4062
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // lblTaiKhoan
             // 
             this.lblTaiKhoan.AutoSize = true;
+<<<<<<< HEAD
             this.lblTaiKhoan.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTaiKhoan.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTaiKhoan.Location = new System.Drawing.Point(389, 41);
             this.lblTaiKhoan.Name = "lblTaiKhoan";
             this.lblTaiKhoan.Size = new System.Drawing.Size(279, 38);
+=======
+            this.lblTaiKhoan.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTaiKhoan.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lblTaiKhoan.Location = new System.Drawing.Point(389, 41);
+            this.lblTaiKhoan.Name = "lblTaiKhoan";
+            this.lblTaiKhoan.Size = new System.Drawing.Size(322, 45);
+>>>>>>> 8b0447d92c8d310e22fd6c97e99d0abc395f4062
             this.lblTaiKhoan.TabIndex = 1;
             this.lblTaiKhoan.Text = "Quản lý tài khoản";
             // 
@@ -201,6 +212,7 @@ namespace WindowsFormsApp2
             this.radioButton3.Text = "Họ tên";
             this.radioButton3.UseVisualStyleBackColor = true;
             // 
+<<<<<<< HEAD
             // btnBack
             // 
             this.btnBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -212,13 +224,18 @@ namespace WindowsFormsApp2
             this.btnBack.UseVisualStyleBackColor = true;
             this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
+=======
+>>>>>>> 8b0447d92c8d310e22fd6c97e99d0abc395f4062
             // Quanlytacc
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(1043, 453);
+<<<<<<< HEAD
             this.Controls.Add(this.btnBack);
+=======
+>>>>>>> 8b0447d92c8d310e22fd6c97e99d0abc395f4062
             this.Controls.Add(this.radioButton2);
             this.Controls.Add(this.radioButton3);
             this.Controls.Add(this.radioButton1);
@@ -230,7 +247,11 @@ namespace WindowsFormsApp2
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.lblTaiKhoan);
             this.Name = "Quanlytacc";
+<<<<<<< HEAD
             this.Text = "Quản lý thư viện";
+=======
+            this.Text = "Hệ thống thư viện";
+>>>>>>> 8b0447d92c8d310e22fd6c97e99d0abc395f4062
             this.Load += new System.EventHandler(this.Quanlytacc_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
@@ -256,6 +277,9 @@ namespace WindowsFormsApp2
         private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.RadioButton radioButton3;
+<<<<<<< HEAD
         private System.Windows.Forms.Button btnBack;
+=======
+>>>>>>> 8b0447d92c8d310e22fd6c97e99d0abc395f4062
     }
 }

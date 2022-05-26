@@ -41,7 +41,10 @@ namespace WindowsFormsApp2
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+<<<<<<< HEAD
             this.btnBack = new System.Windows.Forms.Button();
+=======
+>>>>>>> 8b0447d92c8d310e22fd6c97e99d0abc395f4062
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -154,7 +157,11 @@ namespace WindowsFormsApp2
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+<<<<<<< HEAD
             this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+=======
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+>>>>>>> 8b0447d92c8d310e22fd6c97e99d0abc395f4062
             this.label1.Location = new System.Drawing.Point(203, 25);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(404, 37);
@@ -162,6 +169,7 @@ namespace WindowsFormsApp2
             this.label1.Text = "Chỉnh sửa thông tin độc giả";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
+<<<<<<< HEAD
             // btnBack
             // 
             this.btnBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -174,19 +182,30 @@ namespace WindowsFormsApp2
             this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
             // Form10
+=======
+            // Form5
+>>>>>>> 8b0447d92c8d310e22fd6c97e99d0abc395f4062
             // 
             this.AllowDrop = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 272);
+<<<<<<< HEAD
             this.Controls.Add(this.btnBack);
+=======
+>>>>>>> 8b0447d92c8d310e22fd6c97e99d0abc395f4062
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnTaoThe);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
+<<<<<<< HEAD
             this.Name = "Form10";
             this.Text = "Quản lý thư viện";
+=======
+            this.Name = "Form5";
+            this.Text = "Chỉnh sửa thông tin độc giả";
+>>>>>>> 8b0447d92c8d310e22fd6c97e99d0abc395f4062
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
@@ -208,6 +227,9 @@ namespace WindowsFormsApp2
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+<<<<<<< HEAD
         private System.Windows.Forms.Button btnBack;
+=======
+>>>>>>> 8b0447d92c8d310e22fd6c97e99d0abc395f4062
     }
 }

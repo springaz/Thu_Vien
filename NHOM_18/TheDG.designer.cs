@@ -48,7 +48,10 @@ namespace WindowsFormsApp2
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.btnTaoThe = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+<<<<<<< HEAD
             this.btnBack = new System.Windows.Forms.Button();
+=======
+>>>>>>> 8b0447d92c8d310e22fd6c97e99d0abc395f4062
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -56,7 +59,11 @@ namespace WindowsFormsApp2
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+<<<<<<< HEAD
             this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+=======
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+>>>>>>> 8b0447d92c8d310e22fd6c97e99d0abc395f4062
             this.label1.Location = new System.Drawing.Point(310, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(180, 37);
@@ -246,6 +253,7 @@ namespace WindowsFormsApp2
             this.button1.Text = "Xóa";
             this.button1.UseVisualStyleBackColor = true;
             // 
+<<<<<<< HEAD
             // btnBack
             // 
             this.btnBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -257,19 +265,28 @@ namespace WindowsFormsApp2
             this.btnBack.UseVisualStyleBackColor = true;
             this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
+=======
+>>>>>>> 8b0447d92c8d310e22fd6c97e99d0abc395f4062
             // Form4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 313);
+<<<<<<< HEAD
             this.Controls.Add(this.btnBack);
+=======
+>>>>>>> 8b0447d92c8d310e22fd6c97e99d0abc395f4062
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnTaoThe);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
             this.Name = "Form4";
+<<<<<<< HEAD
             this.Text = "Quản lý thư viện";
+=======
+            this.Text = "Thẻ độc giả";
+>>>>>>> 8b0447d92c8d310e22fd6c97e99d0abc395f4062
             this.Load += new System.EventHandler(this.Form4_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -299,6 +316,9 @@ namespace WindowsFormsApp2
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label8;
+<<<<<<< HEAD
         private System.Windows.Forms.Button btnBack;
+=======
+>>>>>>> 8b0447d92c8d310e22fd6c97e99d0abc395f4062
     }
 }

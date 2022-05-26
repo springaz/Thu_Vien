@@ -77,7 +77,10 @@
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+<<<<<<< HEAD
             this.btnBack = new System.Windows.Forms.Button();
+=======
+>>>>>>> 8b0447d92c8d310e22fd6c97e99d0abc395f4062
             this.gbPM.SuspendLayout();
             this.gbThongTinSach.SuspendLayout();
             this.gbChoMuon.SuspendLayout();
@@ -90,7 +93,11 @@
             // 
             this.lblPhieuMuonSach.AutoSize = true;
             this.lblPhieuMuonSach.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+<<<<<<< HEAD
             this.lblPhieuMuonSach.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+=======
+            this.lblPhieuMuonSach.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+>>>>>>> 8b0447d92c8d310e22fd6c97e99d0abc395f4062
             this.lblPhieuMuonSach.Location = new System.Drawing.Point(364, 7);
             this.lblPhieuMuonSach.Name = "lblPhieuMuonSach";
             this.lblPhieuMuonSach.Size = new System.Drawing.Size(243, 35);
@@ -564,6 +571,7 @@
             this.column7.Name = "column7";
             this.column7.Width = 150;
             // 
+<<<<<<< HEAD
             // btnBack
             // 
             this.btnBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -574,13 +582,18 @@
             this.btnBack.Text = "Quay lại:";
             this.btnBack.UseVisualStyleBackColor = true;
             // 
+=======
+>>>>>>> 8b0447d92c8d310e22fd6c97e99d0abc395f4062
             // Form9
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(980, 651);
+<<<<<<< HEAD
             this.Controls.Add(this.btnBack);
+=======
+>>>>>>> 8b0447d92c8d310e22fd6c97e99d0abc395f4062
             this.Controls.Add(this.gbDSSach);
             this.Controls.Add(this.gbChoMuon);
             this.Controls.Add(this.gbThongTinSach);
@@ -588,7 +601,11 @@
             this.Controls.Add(this.lblPhieuMuonSach);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form9";
+<<<<<<< HEAD
             this.Text = "Quản lý thư viện";
+=======
+            this.Text = "Phiếu Mượn Sách";
+>>>>>>> 8b0447d92c8d310e22fd6c97e99d0abc395f4062
             this.Load += new System.EventHandler(this.Form9_Load);
             this.gbPM.ResumeLayout(false);
             this.gbPM.PerformLayout();
@@ -655,6 +672,9 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn6;
+<<<<<<< HEAD
         private System.Windows.Forms.Button btnBack;
+=======
+>>>>>>> 8b0447d92c8d310e22fd6c97e99d0abc395f4062
     }
 }

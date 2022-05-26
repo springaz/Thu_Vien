@@ -77,8 +77,11 @@
             this.txTenSach = new System.Windows.Forms.TextBox();
             this.lbMaSach = new System.Windows.Forms.Label();
             this.txMaSach = new System.Windows.Forms.TextBox();
+<<<<<<< HEAD
             this.btnBack = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+=======
+>>>>>>> 8b0447d92c8d310e22fd6c97e99d0abc395f4062
             this.gbListTra.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ListTraSach)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -253,7 +256,10 @@
             this.btnTrangChu.TabIndex = 28;
             this.btnTrangChu.Text = "Trang chủ";
             this.btnTrangChu.UseVisualStyleBackColor = false;
+<<<<<<< HEAD
             this.btnTrangChu.Click += new System.EventHandler(this.btnTrangChu_Click);
+=======
+>>>>>>> 8b0447d92c8d310e22fd6c97e99d0abc395f4062
             // 
             // btnHuy
             // 
@@ -386,7 +392,11 @@
             // 
             this.lblPhieuTraSach.AutoSize = true;
             this.lblPhieuTraSach.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+<<<<<<< HEAD
             this.lblPhieuTraSach.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+=======
+            this.lblPhieuTraSach.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+>>>>>>> 8b0447d92c8d310e22fd6c97e99d0abc395f4062
             this.lblPhieuTraSach.Location = new System.Drawing.Point(371, 7);
             this.lblPhieuTraSach.Name = "lblPhieuTraSach";
             this.lblPhieuTraSach.Size = new System.Drawing.Size(207, 35);
@@ -560,6 +570,7 @@
             this.txMaSach.Size = new System.Drawing.Size(164, 22);
             this.txMaSach.TabIndex = 7;
             // 
+<<<<<<< HEAD
             // btnBack
             // 
             this.btnBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -580,14 +591,19 @@
             this.button1.Text = "Quay lại:";
             this.button1.UseVisualStyleBackColor = true;
             // 
+=======
+>>>>>>> 8b0447d92c8d310e22fd6c97e99d0abc395f4062
             // Form5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(988, 651);
+<<<<<<< HEAD
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnBack);
+=======
+>>>>>>> 8b0447d92c8d310e22fd6c97e99d0abc395f4062
             this.Controls.Add(this.gbThongTinSach);
             this.Controls.Add(this.gbListTra);
             this.Controls.Add(this.gbSearch);
@@ -595,7 +611,11 @@
             this.Controls.Add(this.gbTraSach);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form5";
+<<<<<<< HEAD
             this.Text = "Quản lý thư viện";
+=======
+            this.Text = "Phiếu Trả Sách";
+>>>>>>> 8b0447d92c8d310e22fd6c97e99d0abc395f4062
             this.Load += new System.EventHandler(this.Form5_Load);
             this.gbListTra.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.ListTraSach)).EndInit();
@@ -662,7 +682,10 @@
         private System.Windows.Forms.TextBox txTenSach;
         private System.Windows.Forms.Label lbMaSach;
         private System.Windows.Forms.TextBox txMaSach;
+<<<<<<< HEAD
         private System.Windows.Forms.Button btnBack;
         private System.Windows.Forms.Button button1;
+=======
+>>>>>>> 8b0447d92c8d310e22fd6c97e99d0abc395f4062
     }
 }

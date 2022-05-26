@@ -25,14 +25,21 @@ namespace WindowsFormsApp2
 
         private void btnMuonTra_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             this.Hide();
             THMuonSach tinhhinhmuon = new THMuonSach();
             tinhhinhmuon.ShowDialog();
             this.Close();
+=======
+            THMuonSach tinhhinhmuon = new THMuonSach();
+            tinhhinhmuon.Show();
+
+>>>>>>> 8b0447d92c8d310e22fd6c97e99d0abc395f4062
         }
 
         private void btnTraTre_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             this.Hide();
             TraTre tratre = new TraTre();
             tratre.ShowDialog();
@@ -45,6 +52,10 @@ namespace WindowsFormsApp2
             HomeAd mnuBaoCao = new HomeAd();
             mnuBaoCao.ShowDialog();
             this.Close();
+=======
+            TraTre tratre = new TraTre();
+            tratre.Show();
+>>>>>>> 8b0447d92c8d310e22fd6c97e99d0abc395f4062
         }
     }
 }

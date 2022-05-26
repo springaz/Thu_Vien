@@ -57,7 +57,10 @@ namespace WindowsFormsApp2
             this.LinklblHoTen = new System.Windows.Forms.LinkLabel();
             this.btnSignout = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+<<<<<<< HEAD
             this.btnBack = new System.Windows.Forms.Button();
+=======
+>>>>>>> 8b0447d92c8d310e22fd6c97e99d0abc395f4062
             this.gbTaiKhoan.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -66,7 +69,11 @@ namespace WindowsFormsApp2
             // 
             this.lblTaiKhoan.AutoSize = true;
             this.lblTaiKhoan.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+<<<<<<< HEAD
             this.lblTaiKhoan.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+=======
+            this.lblTaiKhoan.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+>>>>>>> 8b0447d92c8d310e22fd6c97e99d0abc395f4062
             this.lblTaiKhoan.Location = new System.Drawing.Point(466, 83);
             this.lblTaiKhoan.Name = "lblTaiKhoan";
             this.lblTaiKhoan.Size = new System.Drawing.Size(352, 45);
@@ -295,7 +302,11 @@ namespace WindowsFormsApp2
             this.LinklblHoTen.AutoSize = true;
             this.LinklblHoTen.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.LinklblHoTen.Font = new System.Drawing.Font("Times New Roman", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+<<<<<<< HEAD
             this.LinklblHoTen.LinkColor = System.Drawing.Color.Black;
+=======
+            this.LinklblHoTen.LinkColor = System.Drawing.Color.White;
+>>>>>>> 8b0447d92c8d310e22fd6c97e99d0abc395f4062
             this.LinklblHoTen.Location = new System.Drawing.Point(946, 18);
             this.LinklblHoTen.Name = "LinklblHoTen";
             this.LinklblHoTen.Size = new System.Drawing.Size(93, 17);
@@ -322,6 +333,7 @@ namespace WindowsFormsApp2
             this.pictureBox1.TabIndex = 20;
             this.pictureBox1.TabStop = false;
             // 
+<<<<<<< HEAD
             // btnBack
             // 
             this.btnBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -333,13 +345,18 @@ namespace WindowsFormsApp2
             this.btnBack.UseVisualStyleBackColor = true;
             this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
+=======
+>>>>>>> 8b0447d92c8d310e22fd6c97e99d0abc395f4062
             // ThongTinTaiKhoan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(1162, 468);
+<<<<<<< HEAD
             this.Controls.Add(this.btnBack);
+=======
+>>>>>>> 8b0447d92c8d310e22fd6c97e99d0abc395f4062
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.LinklblHoTen);
             this.Controls.Add(this.btnSignout);
@@ -347,7 +364,11 @@ namespace WindowsFormsApp2
             this.Controls.Add(this.gbTaiKhoan);
             this.Controls.Add(this.lblTaiKhoan);
             this.Name = "ThongTinTaiKhoan";
+<<<<<<< HEAD
             this.Text = "Quản lý thư viện";
+=======
+            this.Text = "Hệ thống thư viện";
+>>>>>>> 8b0447d92c8d310e22fd6c97e99d0abc395f4062
             this.gbTaiKhoan.ResumeLayout(false);
             this.gbTaiKhoan.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -385,6 +406,9 @@ namespace WindowsFormsApp2
         private System.Windows.Forms.LinkLabel LinklblHoTen;
         private System.Windows.Forms.Button btnSignout;
         private System.Windows.Forms.PictureBox pictureBox1;
+<<<<<<< HEAD
         private System.Windows.Forms.Button btnBack;
+=======
+>>>>>>> 8b0447d92c8d310e22fd6c97e99d0abc395f4062
     }
 }

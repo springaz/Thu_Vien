@@ -74,10 +74,15 @@ namespace WindowsFormsApp2
 
         private void button3_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             this.Hide();
             HomeAd mnuAd = new HomeAd();
             mnuAd.ShowDialog();
             this.Close();
+=======
+            HomeNV homeNV = new HomeNV();
+            homeNV.Show();
+>>>>>>> 8b0447d92c8d310e22fd6c97e99d0abc395f4062
         }
 
         private void Form9_Load(object sender, EventArgs e)

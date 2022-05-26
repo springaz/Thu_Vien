@@ -50,7 +50,11 @@ namespace WindowsFormsApp2
             // lblMain
             // 
             this.lblMain.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+<<<<<<< HEAD
             this.lblMain.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+=======
+            this.lblMain.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+>>>>>>> 8b0447d92c8d310e22fd6c97e99d0abc395f4062
             this.lblMain.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.lblMain.Location = new System.Drawing.Point(431, 9);
             this.lblMain.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -101,7 +105,11 @@ namespace WindowsFormsApp2
             this.LinklblHoTen.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.LinklblHoTen.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LinklblHoTen.ForeColor = System.Drawing.Color.White;
+<<<<<<< HEAD
             this.LinklblHoTen.LinkColor = System.Drawing.Color.Black;
+=======
+            this.LinklblHoTen.LinkColor = System.Drawing.Color.Transparent;
+>>>>>>> 8b0447d92c8d310e22fd6c97e99d0abc395f4062
             this.LinklblHoTen.Location = new System.Drawing.Point(949, 30);
             this.LinklblHoTen.Name = "LinklblHoTen";
             this.LinklblHoTen.Size = new System.Drawing.Size(127, 22);
@@ -220,7 +228,11 @@ namespace WindowsFormsApp2
             this.Controls.Add(this.btnDocGia);
             this.Controls.Add(this.lblMain);
             this.Name = "HomeAd";
+<<<<<<< HEAD
             this.Text = "Quản lý thư viện";
+=======
+            this.Text = "Hệ thống thư viện";
+>>>>>>> 8b0447d92c8d310e22fd6c97e99d0abc395f4062
             this.Load += new System.EventHandler(this.Form4_Load);
             this.gbLich.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.picLib)).EndInit();

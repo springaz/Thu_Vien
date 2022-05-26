@@ -27,6 +27,7 @@ namespace WindowsFormsApp2
             ThongTinTaiKhoan thongtinmoi = new ThongTinTaiKhoan();
             thongtinmoi.Show();
         }
+<<<<<<< HEAD
 
         private void btnBack_Click(object sender, EventArgs e)
         {
@@ -35,5 +36,7 @@ namespace WindowsFormsApp2
             mnuAd.ShowDialog();
             this.Close();
         }
+=======
+>>>>>>> 8b0447d92c8d310e22fd6c97e99d0abc395f4062
     }
 }

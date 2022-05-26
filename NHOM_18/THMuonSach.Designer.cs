@@ -41,13 +41,17 @@ namespace NHOM_18
             this.lblThoiGian = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+<<<<<<< HEAD
             this.btnBack = new System.Windows.Forms.Button();
+=======
+>>>>>>> 8b0447d92c8d310e22fd6c97e99d0abc395f4062
             this.gbTinhHinh.SuspendLayout();
             this.SuspendLayout();
             // 
             // lblBaoCao
             // 
             this.lblBaoCao.AutoSize = true;
+<<<<<<< HEAD
             this.lblBaoCao.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblBaoCao.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblBaoCao.Location = new System.Drawing.Point(251, 81);
@@ -56,6 +60,15 @@ namespace NHOM_18
             this.lblBaoCao.TabIndex = 0;
             this.lblBaoCao.Text = "Báo cáo - Thống kê";
             this.lblBaoCao.Click += new System.EventHandler(this.lblBaoCao_Click);
+=======
+            this.lblBaoCao.Font = new System.Drawing.Font("Times New Roman", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBaoCao.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lblBaoCao.Location = new System.Drawing.Point(183, 57);
+            this.lblBaoCao.Name = "lblBaoCao";
+            this.lblBaoCao.Size = new System.Drawing.Size(376, 49);
+            this.lblBaoCao.TabIndex = 0;
+            this.lblBaoCao.Text = "Báo cáo - Thống kê";
+>>>>>>> 8b0447d92c8d310e22fd6c97e99d0abc395f4062
             // 
             // gbTinhHinh
             // 
@@ -166,6 +179,7 @@ namespace NHOM_18
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+<<<<<<< HEAD
             // btnBack
             // 
             this.btnBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -177,19 +191,28 @@ namespace NHOM_18
             this.btnBack.UseVisualStyleBackColor = true;
             this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
+=======
+>>>>>>> 8b0447d92c8d310e22fd6c97e99d0abc395f4062
             // THMuonSach
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 450);
+<<<<<<< HEAD
             this.Controls.Add(this.btnBack);
+=======
+>>>>>>> 8b0447d92c8d310e22fd6c97e99d0abc395f4062
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.gbTinhHinh);
             this.Controls.Add(this.lblBaoCao);
             this.Name = "THMuonSach";
+<<<<<<< HEAD
             this.Text = "Quản lý thư viện";
+=======
+            this.Text = "Hệ thống quản lý thư viện";
+>>>>>>> 8b0447d92c8d310e22fd6c97e99d0abc395f4062
             this.Load += new System.EventHandler(this.THMuonSach_Load);
             this.gbTinhHinh.ResumeLayout(false);
             this.gbTinhHinh.PerformLayout();
@@ -212,6 +235,9 @@ namespace NHOM_18
         private System.Windows.Forms.Label lblThoiGian;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
+<<<<<<< HEAD
         private System.Windows.Forms.Button btnBack;
+=======
+>>>>>>> 8b0447d92c8d310e22fd6c97e99d0abc395f4062
     }
 }

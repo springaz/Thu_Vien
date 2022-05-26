@@ -65,6 +65,7 @@ namespace WindowsFormsApp2
         {
 
         }
+<<<<<<< HEAD
 
         private void btnBack_Click(object sender, EventArgs e)
         {
@@ -73,5 +74,7 @@ namespace WindowsFormsApp2
             mnuSach.ShowDialog();
             this.Close();
         }
+=======
+>>>>>>> 8b0447d92c8d310e22fd6c97e99d0abc395f4062
     }
 }

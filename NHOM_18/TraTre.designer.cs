@@ -41,7 +41,10 @@ namespace WindowsFormsApp2
             this.lblBaoCao = new System.Windows.Forms.Label();
             this.btnLuu = new System.Windows.Forms.Button();
             this.btnIn = new System.Windows.Forms.Button();
+<<<<<<< HEAD
             this.btnBack = new System.Windows.Forms.Button();
+=======
+>>>>>>> 8b0447d92c8d310e22fd6c97e99d0abc395f4062
             this.gbTinhHinh.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -134,11 +137,19 @@ namespace WindowsFormsApp2
             // lblBaoCao
             // 
             this.lblBaoCao.AutoSize = true;
+<<<<<<< HEAD
             this.lblBaoCao.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblBaoCao.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblBaoCao.Location = new System.Drawing.Point(244, 81);
             this.lblBaoCao.Name = "lblBaoCao";
             this.lblBaoCao.Size = new System.Drawing.Size(286, 37);
+=======
+            this.lblBaoCao.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBaoCao.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lblBaoCao.Location = new System.Drawing.Point(247, 51);
+            this.lblBaoCao.Name = "lblBaoCao";
+            this.lblBaoCao.Size = new System.Drawing.Size(344, 45);
+>>>>>>> 8b0447d92c8d310e22fd6c97e99d0abc395f4062
             this.lblBaoCao.TabIndex = 33;
             this.lblBaoCao.Text = "Báo cáo - Thống kê";
             // 
@@ -162,6 +173,7 @@ namespace WindowsFormsApp2
             this.btnIn.Text = "Xuất";
             this.btnIn.UseVisualStyleBackColor = true;
             // 
+<<<<<<< HEAD
             // btnBack
             // 
             this.btnBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -173,19 +185,28 @@ namespace WindowsFormsApp2
             this.btnBack.UseVisualStyleBackColor = true;
             this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
+=======
+>>>>>>> 8b0447d92c8d310e22fd6c97e99d0abc395f4062
             // TraTre
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 450);
+<<<<<<< HEAD
             this.Controls.Add(this.btnBack);
+=======
+>>>>>>> 8b0447d92c8d310e22fd6c97e99d0abc395f4062
             this.Controls.Add(this.btnIn);
             this.Controls.Add(this.btnLuu);
             this.Controls.Add(this.lblBaoCao);
             this.Controls.Add(this.gbTinhHinh);
             this.Name = "TraTre";
+<<<<<<< HEAD
             this.Text = "Quản lý thư viện";
+=======
+            this.Text = "Hệ thống thư viện";
+>>>>>>> 8b0447d92c8d310e22fd6c97e99d0abc395f4062
             this.Load += new System.EventHandler(this.TraTre_Load);
             this.gbTinhHinh.ResumeLayout(false);
             this.gbTinhHinh.PerformLayout();
@@ -207,6 +228,9 @@ namespace WindowsFormsApp2
         private System.Windows.Forms.Label lblBaoCao;
         private System.Windows.Forms.Button btnLuu;
         private System.Windows.Forms.Button btnIn;
+<<<<<<< HEAD
         private System.Windows.Forms.Button btnBack;
+=======
+>>>>>>> 8b0447d92c8d310e22fd6c97e99d0abc395f4062
     }
 }
